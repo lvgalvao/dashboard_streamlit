@@ -5,9 +5,9 @@ from azure.identity import DefaultAzureCredential
 from azure.keyvault.secrets import SecretClient
 
 # Configurações do Key Vault
-KEY_VAULT_URL = "https://azurekeyvaultworkshop.vault.azure.net/"
+KEY_VAULT_URL = "https://minhasenhas.vault.azure.net/"
 SERVER = "workshopazuredatavase.database.windows.net"
-DATABASE = "bitcoin_database"
+DATABASE = "meubancodedadosaovivo"
 DRIVER = "{ODBC Driver 18 for SQL Server}"
 
 # Função para buscar segredos do Azure Key Vault
