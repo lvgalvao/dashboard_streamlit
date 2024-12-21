@@ -10,6 +10,7 @@ SERVER = "workshopazuredatavase.database.windows.net"
 DATABASE = "meubancodedadosaovivo"
 DRIVER = "{ODBC Driver 18 for SQL Server}"
 
+
 # Função para buscar segredos do Azure Key Vault
 def get_secrets_from_key_vault():
     try:
