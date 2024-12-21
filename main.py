@@ -45,7 +45,7 @@ def ler_dados_sqlserver():
 # Função principal
 def main():
     st.set_page_config(page_title="Dashboard de Preços do Bitcoin", layout="wide")
-    st.title("Dashboard de Preços do Bitcoin")
+    st.title("Dashboard de Preços do Bitcoin ATUALIZADO")
     st.write("Este dashboard exibe os dados do preço do Bitcoin coletados periodicamente em um banco SQL Server.")
 
     df = ler_dados_sqlserver()
