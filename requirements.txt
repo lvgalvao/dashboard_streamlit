@@ -1,0 +1,5 @@
+streamlit
+pandas
+pyodbc
+azure-identity
+azure-keyvault-secrets
