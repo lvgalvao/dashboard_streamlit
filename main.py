@@ -24,6 +24,7 @@ def get_secrets_from_key_vault():
         st.error(f"Erro ao obter segredos do Key Vault: {e}")
         return None, None
 
+
 # Função para ler os dados do SQL Server
 def ler_dados_sqlserver():
     try:
